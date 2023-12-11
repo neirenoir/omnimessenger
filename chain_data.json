@@ -1,0 +1,72 @@
+{
+    "deploy_on": [ 
+        ["avalanche", "fuji"],
+        ["ethereum", "sepolia"]
+    ],
+    "burner": [
+        ["optimism", "goerli"],
+        ["polygon", "mumbai"],
+        ["bsc", "testnet"]
+    ],
+    "ethereum": {
+        "sepolia": {
+            "chainSelector": "16015286601757825753",
+            "ccipRouter": "0xd0daae2231e9cb96b94c8512223533293c3693bf",
+            "linkToken": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+            "rpc": "https://rpc.sepolia.org/",
+            "funded": true,
+            "linkFunded": true
+        }
+    },
+    "optimism": {
+        "goerli": {
+            "chainSelector": "2664363617261496610",
+            "ccipRouter": "0xeb52e9ae4a9fb37172978642d4c141ef53876f26",
+            "linkToken": "0xdc2CC710e42857672E7907CF474a69B63B93089f",
+            "rpc": "https://opt-goerli.g.alchemy.com/v2/$ALCHEMY_API_KEY",
+            "funded": true,
+            "linkFunded": true
+        }
+    },
+    "polygon": {
+        "mumbai": {
+            "chainSelector": "12532609583862916517",
+            "ccipRouter": "0x70499c328e1e2a3c41108bd3730f6670a44595d1",
+            "linkToken": "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
+            "rpc": "https://rpc-mumbai.maticvigil.com",
+            "funded": true,
+            "linkFunded": true
+        }
+    },
+    "avalanche": {
+        "fuji": {
+            "chainSelector": "14767482510784806043",
+            "ccipRouter": "0x554472a2720e5e7d5d3c817529aba05eed5f82d8",
+            "linkToken": "0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846",
+            "rpc": "https://api.avax-test.network/ext/bc/C/rpc",
+            "funded": true,
+            "linkFunded": true
+
+        }
+    },
+    "bsc": {
+        "testnet": {
+            "chainSelector": "13264668187771770619",
+            "ccipRouter": "0x9527e2d01a3064ef6b50c1da1c0cc523803bcff2",
+            "linkToken": "0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06",
+            "rpc": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+            "funded": true,
+            "linkFunded": true
+        }
+    },
+    "base": {
+        "goerli": {
+            "chainSelector": "5790810961207155433",
+            "ccipRouter": "0xa8c0c11bf64af62cdca6f93d3769b88bdd7cb93d",
+            "linkToken": "0xd886e2286fd1073df82462ea1822119600af80b6",
+            "rpc": "https://goerli.base.org",
+            "funded": false,
+            "linkFunded": true
+        }
+    }
+}

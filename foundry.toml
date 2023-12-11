@@ -1,0 +1,13 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+libs = ['lib']
+#solc = "/run/current-system/sw/bin/solc"
+offline = true
+auto_detect_solc = false
+cache = false
+
+optimizer=true
+optimizer_runs=10 # If only faucets were not so skimpy
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
