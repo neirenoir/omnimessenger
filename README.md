@@ -2,7 +2,7 @@
 Any message, any chain! If it worked, that is.
 
 ## Usage
-You can try to deploy it with `multichain-deploy.py``. It should deploy on all 
+You can try to deploy it with `multichain-deploy.py`. It should deploy on all 
 chains, if you have gas. You can list the chains you want to deploy to in
 `chain_data.json`'s "deploy_on" field.
 
